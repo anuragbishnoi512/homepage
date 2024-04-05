@@ -10,34 +10,33 @@
 </head>
 
 <body>
-    <section class="bg-img d-flex-column section-1">a
+    <section class="bg-img d-flex-column section-1">
         <nav>
             <div class="container d-flex space-btw">
                 <div class="d-flex align-item">
-                    <img src="./assets/images/earth.png" alt="eventsfree">
-                    <a class="Events" href="#">Events<span class="Free">Free</span></a>
+                    <img src="./assets/images/earth.png" alt="." class="">
+                    <a class="Events" href="#">Events <span class="Free">Free</span></a>
                 </div>
-                <input type="checkbox" id="menubar" hidden>
-                <label for="menubar">
-                    <span class="menu-color"></span>
-                    <span class="menu-color"></span>
-                    <span class="menu-color"></span>
-                </label>
-                <ul class="d-flex gap-60 align-item lg-view">
-                    <a href="">
-                        <li class="nav-fonts">HOME</li>
+                <div class="nav-menu cursor-pointer">
+                    <span class="dot-span"></span>
+                    <span class="dot-span"></span>
+                    <span class="dot-span"></span>
+                </div>
+                <div class="d-flex align-item gap-60 lg-view">
+                    <a href="#">
+                        <p class="nav-fonts">Home</p>
                     </a>
-                    <a href="">
-                        <li class="nav-fonts">EVENTS</li>
+                    <a href="#">
+                        <p class="nav-fonts">Events</p>
                     </a>
-                    <a href="">
-                        <li class="nav-fonts">FEED</li>
+                    <a href="#">
+                        <p class="nav-fonts">Feed</p>
                     </a>
-                    <a href="">
-                        <li class="nav-fonts">USERNAME</li>
+                    <a href="#">
+                        <p class="nav-fonts">Username</p>
                     </a>
                     <button class="logout">Log Out</button>
-                </ul>
+                </div>
             </div>
         </nav>
         <div class="container flex-grow posi-rel z-index">
@@ -445,6 +444,7 @@
             <p class="credits mt-50">© Credits of companyName belong to companyName.</p>
         </div>
     </footer>
+    <script src="./assets/js/app.js"></script>
 </body>
 
 </html>
