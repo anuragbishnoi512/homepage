@@ -541,3 +541,83 @@ nav {
     position: relative;
     bottom: 20px;
 }
+
+.sec-3-bg-img {
+    background-image: url(../images/rectangle.png);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    height: auto;
+}
+
+.sec-3-bg-img::after {
+    content: "";
+    position: absolute;
+    height: 100%;
+    left: 0;
+    top: 0;
+    width: 100%;
+    background-image: url(../images/layer\ blue.png);
+}
+
+.sec-3-heading {
+    font-family: 'Poppins', sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 62px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #FFFFFF;
+    max-width: 708PX;
+}
+
+.sec-3-para {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: white;
+    max-width: 765px;
+}
+
+.col-3 {
+    width: 25%;
+    padding-right: 12px;
+    padding-left: 12px;
+}
+
+.sec-3-fonts-1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 53px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white;
+}
+
+.sec-3-fonts-2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white;
+}
+
+.justi-cont-even {
+    justify-content: space-evenly;
+}
+
+.w-100 {
+    width: 100%;
+    height: 100%;
+}
+
+.mt-b-28-50 {
+    margin-top: 28px;
+    margin-bottom: 50px;
+}
