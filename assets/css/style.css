@@ -141,6 +141,10 @@ h1 {
     justify-content: space-between;
 }
 
+.justi-cont-even {
+    justify-content: space-evenly;
+}
+
 .align-item {
     align-items: center;
 }
@@ -162,6 +166,7 @@ h1 {
     border: none;
     border-radius: 23px;
     cursor: pointer;
+    transition: 0.3s;
 }
 
 .logout:hover {
@@ -222,6 +227,7 @@ nav {
     border: none;
     border-radius: 23px;
     cursor: pointer;
+    transition: 0.3s;
 }
 
 .get-started:hover {
@@ -373,6 +379,7 @@ nav {
     border: none;
     margin-left: 5px;
     cursor: pointer;
+    transition: 0.3s;
 }
 
 .gocheck:hover {
@@ -392,4 +399,145 @@ nav {
 
 .z-index {
     z-index: 1;
+}
+
+.section-2img {
+    width: 100%;
+    height: 100%;
+}
+
+.posi-rel {
+    position: relative;
+}
+
+.icon-1 {
+    position: absolute;
+    top: 47%;
+    left: 43%;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+.underlineEffect-1 {
+    max-width: 165px;
+    position: relative;
+    top: 10px;
+}
+
+
+.underlineEffect-1::after {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 6px;
+    background-color: blue;
+    bottom: -5px;
+    left: 0;
+}
+
+.underlineEffect-1::before {
+    position: absolute;
+    content: "";
+    width: 20%;
+    height: 6px;
+    background-color: skyblue;
+    bottom: -5px;
+    right: 0;
+    z-index: 2;
+}
+
+.sec-2-heading {
+    font-family: 'Poppins', sans-serif;
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 72px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: black;
+}
+
+.mt-12 {
+    margin-top: 12px;
+}
+
+.mb-42 {
+    margin-bottom: 42px;
+}
+
+.mt-40 {
+    margin-top: 40px;
+}
+
+.pt-37 {
+    padding-top: 37px;
+}
+
+.mt-50 {
+    margin-top: 50px;
+}
+
+.py-60 {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.sec-2-para {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #000000B2;
+}
+
+.box {
+    border: 1px solid #2C49FE;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.box:hover {
+    background-color: #2C49FE;
+}
+
+.box:hover .box-heading {
+    color: white;
+}
+
+.box:hover .box-para {
+    color: white;
+}
+
+.circle {
+    width: 79px;
+    height: 79px;
+    border-radius: 50%;
+    border: 2px solid blue;
+    position: relative;
+    bottom: 38px;
+    background-color: white;
+}
+
+.box-heading {
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 38px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #2C49FE;
+    position: relative;
+    bottom: 21px;
+}
+
+.box-para {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    max-width: 220px;
+    text-align: center;
+    color: #2D3CAE;
+    position: relative;
+    bottom: 20px;
 }
