@@ -22,7 +22,7 @@
 }
 
 .bg-img {
-    background-image: url(../images/main\ pic.png);
+    background-image: url(../images/main-pic.png);
     background-size: cover;
     background-position: center;
     position: relative;
@@ -36,7 +36,7 @@
     left: 0;
     top: 0;
     width: 100%;
-    background-image: url(../images/black\ layer.png);
+    background-image: url(../images/black-layer.png);
 }
 
 .container {
@@ -585,7 +585,7 @@ nav {
     left: 0;
     top: 0;
     width: 100%;
-    background-image: url(../images/layer\ blue.png);
+    background-image: url(../images/layer-blue.png)
 }
 
 .sec-3-heading {
@@ -771,7 +771,7 @@ nav {
 }
 
 .w-49 {
-    width: 49%;
+    width: 50%;
 }
 
 .gap-10 {
@@ -962,7 +962,7 @@ nav {
     .lg-view {
         display: flex;
         flex-direction: column;
-        background-color: blue;
+        background-color: lightblue;
         position: fixed;
         justify-content: center;
         align-items: center;
@@ -973,10 +973,14 @@ nav {
         transition: 0.5s;
     }
 
+    .nav-fonts {
+        color: black;
+    }
+
     .dot-span {
         background-color: white;
         width: 40px;
-        height: 40px;
+        height: 20px;
         margin-top: 5px;
     }
 
